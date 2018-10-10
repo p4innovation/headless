@@ -94,7 +94,6 @@ class Headless
          "-y",
          "-r #{@frame_rate}",
          "-s #{dimensions}",
-         "-i :#{@display}",
          @devices,
          group_of_pic_size_option,
          "-vcodec #{@codec}",
