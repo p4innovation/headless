@@ -94,7 +94,6 @@ class Headless
          "-y",
          "-r #{@frame_rate}",
          "-s #{dimensions}",
-         "-f x11grab",
          "-i :#{@display}",
          @devices,
          group_of_pic_size_option,
